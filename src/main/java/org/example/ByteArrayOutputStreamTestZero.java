@@ -4,7 +4,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.Arrays;
 
-public class ByteArrayOutputStreamZero {
+public class ByteArrayOutputStreamTestZero {
     public static void main(String[] args) throws IOException {
         ByteArrayOutputStream baos = new ByteArrayOutputStream(1024);
 
