@@ -3,7 +3,7 @@ package org.example.InputOutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class FileWriterZeor {
+public class FileWriterZero {
     public static void writeFileWithOutputStream(String[] args) {
         String text = "Hello from Output Stream";
         try(FileOutputStream fileOutputStream = new FileOutputStream("test.txt")){
