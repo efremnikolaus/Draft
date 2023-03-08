@@ -4,7 +4,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class FileWriterZero {
-    public static void writeFileWithOutputStream(String[] args) {
+    public static void writeFileWithOutputStream() {
         String text = "Hello from Output Stream";
         try(FileOutputStream fileOutputStream = new FileOutputStream("test.txt")){
             byte[] buffer = text.getBytes();
