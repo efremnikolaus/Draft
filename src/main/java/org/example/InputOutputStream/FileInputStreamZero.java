@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class FileInputStreamZero {
-    public static void main(String[] args){
+    public static void readFileWithInputStream(){
         File file = new File("test.txt");
         try(FileInputStream fileInputStream = new FileInputStream(file)){
             System.out.println("File size in bytes: " + fileInputStream.available());
