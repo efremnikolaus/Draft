@@ -7,7 +7,7 @@ public class FileOutputStreamZero {
     public static void writeFileWithOutputStream(){
         String greeting = "Hello from Output Stream:)";
         try(FileOutputStream fileOutputStream = new FileOutputStream("test.txt")){
-            byte[] buffer = test.getBytes();
+            byte[] buffer = greeting.getBytes();
             fileOutputStream.write(buffer, 0, buffer.length);
         } catch(IOException e){
             System.out.println(e.getMessage());
